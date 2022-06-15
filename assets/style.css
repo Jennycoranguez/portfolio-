@@ -1,19 +1,23 @@
 #section1 {
     background-color: blueviolet;
-    height: 100px
+    height: 100px;
+    padding: 8px;
+    margin: 1;
+    
 }
 #section2 {
     clear:both;
     background-color: rgb(43, 64, 226);
-    height: 200px
+    height: 200px;
+        
 }
 #section3 {
     background-color: rgb(14, 53, 34);
     height: 200px
 }
-#section4 {
+#section4 { 
     background-color: rgb(226, 43, 55);
-    height: 500px
+    height: 600px
 }
 #section5 {
     background-color: rgb(226, 95, 43);
@@ -24,19 +28,70 @@
     height: 100px
 }
 li {
-    display: inline
+    display: inline;
+    font-family: century;
+    border-bottom:2px solid black;
+    
 }
 #nav {
-    float: right
+    float: right;
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+};
 
-}
 #sectionheader {
-    float:left
-}
+    float:left;
+    }
+
+     li:hover {
+        color: rgb(176, 19, 243); 
+    }
+
 #project1 {
     clear: both;
     margin:auto;
     height: 300px;
-    width: 600px;
+    width: 900px;
     background-color: blueviolet;
 }
+#project2 {
+    float:left;
+    margin: auto;
+    height: 250px;
+    width: 300px;
+    background-color: rgb(170, 39, 66); 
+    position:relative;
+}
+#project3 {
+    float:left;
+    margin: auto;
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    position:relative;
+}
+#project4{
+    float:left;
+    margin: auto;
+    height:250px;
+    width: 300px;
+    position:relative;
+    background-color: black;
+}
+
+
+   #projectcontainer{
+    width: 900px;
+    margin: auto;
+   } 
+   .banners{
+    padding: 20px;
+    width:50px;
+    background-color:beige;
+    position: absolute;
+    bottom: 10px;
+   }
